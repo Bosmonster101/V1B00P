@@ -10,6 +10,10 @@ public class Voetbalclub {
         this.naam = naam;
     }
 
+    public String getNaam() {
+        return naam;
+    }
+
     public void verwerkResultaat(char ch) {
         if (ch == 'w'){
             aantalGewonnen = aantalGewonnen + 1;
